@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row pt-2 item-header">
+        <div class="col-3">
+            <button mat-raised-button color="primary" (click)="goBack()">Back</button>
+        </div>
+        <div class="col-9">
+            {{item.name}}
+        </div>
+    </div>
+    <div class="row pt-2">
+        <div class="col-3">
+            <img class="img-fluid" src="https://media.cnn.com/api/v1/images/stellar/prod/150929101049-black-coffee-stock.jpg?q=x_3,y_1231,h_1684,w_2993,c_crop">
+        </div>
+        <div class="col-9">
+            <div class="row">
+                <div class="col">
+                    {{item.name}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    {{item.desc}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    {{item.price}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 pt-2">
+            <button mat-raised-button 
+                class="float-end" color="primary" 
+                (click)="addItem()">
+                    Add To Cart
+            </button>
+        </div>
+    </div>
+</div>
