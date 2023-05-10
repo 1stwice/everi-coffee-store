@@ -38,6 +38,3 @@ export class ItemComponent {
   }
 
 }
-export class PizzaPartyAnnotatedComponent {
-  snackBarRef = inject(MatSnackBarRef);
-}
